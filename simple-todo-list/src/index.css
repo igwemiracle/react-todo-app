@@ -1,0 +1,64 @@
+/* General styles for the homepage container */
+.homepage {
+  max-width: 600px; /* Maximum width of the todo list container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Styles for the heading */
+.homepage h2 {
+  text-align: center; /* Center align the heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Styles for the input field */
+.homepage input[type="text"] {
+  width: calc(100% - 22px); /* Full width minus padding and border */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 16px; /* Font size for the input text */
+  margin-bottom: 10px; /* Space below the input field */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Styles for the button */
+.homepage button {
+  width: 100%; /* Full width of the container */
+  padding: 10px; /* Padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 16px; /* Font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.homepage button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for the list */
+.homepage ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styles for each list item */
+.homepage li {
+  padding: 10px; /* Padding inside each list item */
+  border-bottom: 1px solid #ddd; /* Light border below each item */
+  font-size: 16px; /* Font size for list items */
+}
+
+/* Remove the border on the last item */
+.homepage li:last-child {
+  border-bottom: none;
+}
